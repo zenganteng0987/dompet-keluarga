@@ -1,8 +1,8 @@
 # DompetKeluarga — Situs Anggaran Rumah Tangga
 
 [![Make the best household budget site](https://make.fun/badge/best-household-budget-site-20261126-1457.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
-[![Rank](https://make.fun/badge/zenganteng0987/dompet-keluarga/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
-[![Reward](https://make.fun/badge/zenganteng0987/dompet-keluarga/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457)
+[![rank](https://make.fun/badge/best-household-budget-site-20261126-1457/zenganteng0987/dompet-keluarga/rank.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
+[![reward](https://make.fun/badge/best-household-budget-site-20261126-1457/zenganteng0987/dompet-keluarga/reward.svg)](https://make.fun/bounty/best-household-budget-site-20261126-1457?utm_source=github&utm_medium=readme&utm_campaign=best-household-budget-site-20261126-1457)
 
 DompetKeluarga adalah situs anggaran rumah tangga untuk keluarga Rahma & Budi di Bandung. Pemasukan Rp12.500.000 per bulan (gaji Budi Rp9.500.000 + usaha kue Rahma Rp3.000.000), dibagi ke 9 kategori anggaran November 2026. Sampai 26 November, terpakai Rp11.135.000 dan tersisa Rp1.365.000.
 
