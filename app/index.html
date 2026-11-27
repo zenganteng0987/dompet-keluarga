@@ -3,29 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title id="page-title">DompetKeluarga — Beranda</title>
-<meta name="description" content="DompetKeluarga — situs anggaran rumah tangga keluarga Rahma & Budi di Bandung: anggaran, transaksi, tagihan, dan laporan November 2026.">
+<title>DompetKeluarga — Atur Budget Rumah Tangga</title>
+<meta name="description" content="DompetKeluarga: anggaran bulanan, catat pengeluaran, dan kejar target tabungan keluarga. Semua tersimpan di perangkatmu, tanpa akun.">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-head">
-  <div class="brand">
-    <span class="logo" aria-hidden="true">Rp</span>
-    <div><strong>DompetKeluarga</strong><small>Keluarga Rahma &amp; Budi · Bandung</small></div>
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="#/">
+      <span class="brand-mark" aria-hidden="true">◈</span>
+      <span class="brand-name">DompetKeluarga</span>
+      <span class="brand-tag">budget rumah, rapi tiap bulan</span>
+    </a>
+    <nav class="mainnav" aria-label="Navigasi utama">
+      <a href="#/" data-route="/">Beranda</a>
+      <a href="#/anggaran" data-route="/anggaran">Anggaran</a>
+      <a href="#/pengeluaran" data-route="/pengeluaran">Pengeluaran</a>
+      <a href="#/tabungan" data-route="/tabungan">Tabungan</a>
+      <a href="#/tips" data-route="/tips">Tips</a>
+    </nav>
   </div>
-  <nav aria-label="Navigasi utama">
-    <a href="#/">Beranda</a>
-    <a href="#/anggaran">Anggaran</a>
-    <a href="#/transaksi">Transaksi</a>
-    <a href="#/tagihan">Tagihan</a>
-    <a href="#/laporan">Laporan</a>
-  </nav>
 </header>
-<main id="app" aria-live="polite"></main>
-<footer>
-  <p>DompetKeluarga · Anggaran keluarga November 2026 · Pemasukan Rp12.500.000 · Terpakai Rp11.135.000 · Sisa Rp1.365.000</p>
-  <p>Semua angka disimpan di peramban ini saja — tidak ada akun, tidak ada data yang dikirim ke mana pun.</p>
+
+<main id="view" class="wrap" aria-live="polite"></main>
+
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>DompetKeluarga</strong> — dibuat untuk keluarga Indonesia yang ingin uang bulanannya jelas ujungnya.</p>
+    <p class="fine">Semua angka contoh tersimpan di perambanmu sendiri (localStorage). Tidak ada akun, tidak ada data yang dikirim ke mana pun. Mata uang: Rupiah (Rp).</p>
+  </div>
 </footer>
-<script type="module" src="js/app.js"></script>
+
+<script type="module" src="app.js"></script>
 </body>
 </html>
